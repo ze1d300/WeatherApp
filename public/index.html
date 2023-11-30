@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="widget">
+        <form class="weatherLocation">
+          <input
+            class="input-field"
+            placeholder="Enter city name"
+            type="text"
+          /><button class="search-button">Search</button>
+        </form>
+
+        <div class="icon-and-weatherInfo">
+          <div class="weatherIcon"><i></i></div>
+          <div class="weatherInfo">
+            <div class="temperature"><span></span></div>
+            <div class="weatherCondition"></div>
+          </div>
+        </div>
+        <div class="place"></div>
+        <div class="date"></div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
